@@ -35,6 +35,3 @@ if uploaded_file is not None:
     mosaic_image = apply_mosaic(image, piece_size)
     
     st.image(mosaic_image, caption='Mosaic Image', use_column_width=True)
-
-if __name__ == "__main__":
-    st.run()
